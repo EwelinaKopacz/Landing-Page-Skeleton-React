@@ -1,10 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import PagePost from '../src/components/PagePost';
 
-
-const App = () => <h1>Hello World</h1>;
+const RenderPage = () => <PagePost/>
 
 ReactDOM.render(
-    <App/>,
-    document.querySelector('#root')
+    <RenderPage/>,
+    document.querySelector('body')
 );
+
+
