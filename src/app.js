@@ -6,7 +6,7 @@ const RenderPage = () => <PagePost/>
 
 ReactDOM.render(
     <RenderPage/>,
-    document.querySelector('body')
+    document.querySelector('#root')
 );
 
 
