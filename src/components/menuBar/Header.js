@@ -11,7 +11,7 @@ const headerStyle = {
     display:'flex',
     aliginItems:'center',
     justifyContent:'space-between',
-    minHeight:'20vh',
+    minHeight:'10vh',
     boxShadow: 'rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px',
     margin:'5px 10px',
 

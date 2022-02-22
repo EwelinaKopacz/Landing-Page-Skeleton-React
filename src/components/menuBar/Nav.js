@@ -22,8 +22,6 @@ const aStyle = {
     fontSize:'20px'
 }
 
-
-
 const Nav = () => {
     return (
         <ul style={ulStyle}>
