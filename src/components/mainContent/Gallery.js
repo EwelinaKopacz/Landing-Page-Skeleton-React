@@ -11,10 +11,16 @@ class Gallery extends React.Component {
     render(){
         return (
             <div style={galleryStyle}>
-                <header>
-                    Holiday Photos
-                </header>
+                <header><h3>{this.props.name}</h3> </header>
+                    <ul>{this.renderPhotos()}</ul>
             </div>
+        )
+    }
+    renderPhotos(){
+        return(
+            <>
+                {this.props.photos.map((item) => <li>Miejsce:{item.destination}, Autor:{item.author}</li>)}
+            </>
         )
     }
 }

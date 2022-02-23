@@ -17,6 +17,7 @@ const headerStyle = {
 
 
 }
+const logoText = 'ClickWeb';
 
 const menuItems = [
     {text: 'home', url: '/'},
@@ -29,7 +30,7 @@ class Header extends React.Component {
     render(){
         return(
             <header style = {headerStyle}>
-                <Logo text = "ClickWeb"/>
+                <Logo text = {logoText}/>
                 <Nav items = {menuItems}/>
             </header>
         )

@@ -21,12 +21,14 @@ const menuItems = [
     {text: 'about', url: '/about'},
     {text: 'offer', url: '/offer'},
     {text: 'contact', url: '/contact'}
-];
+    ];
+
+const copyrightText = 'Copyrights 2022';
 
 const Footer = () => {
     return(
         <footer style={footerStyle}>
-            <Copyrights/>
+            <Copyrights copy = {copyrightText}/>
             <Nav items = {menuItems}/>
         </footer>
     )

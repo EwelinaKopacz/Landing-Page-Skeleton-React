@@ -11,26 +11,16 @@ class Category extends React.Component {
     render(){
         return (
             <div style={categoryStyle}>
-                <header>List of Category:
-                    <ul>
-                        <li>
-                            Salary
-                        </li>
-                        <li>
-                            Work
-                        </li>
-                        <li>
-                            Programming
-                        </li>
-                        <li>
-                            Holiday
-                        </li>
-                        <li>
-                            Life Balance
-                        </li>
-                    </ul>
-                </header>
+                <header><h3>{this.props.name}</h3> </header>
+                    <ul>{this.renderList()}</ul>
             </div>
+        )
+    }
+    renderList(){
+        return (
+            <>
+            {this.props.categoryList.map((item) => <li>{item}</li>)}
+            </>
         )
     }
 }
