@@ -1,6 +1,3 @@
-// Komponent ma wygenerowac tresc znajdujaca sie po lewej stronie
-// Obrazek ma byc przekazany w <Header/>
-
 import React from 'react';
 
 const logoStyle = {

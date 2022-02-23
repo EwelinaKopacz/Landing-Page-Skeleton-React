@@ -1,8 +1,3 @@
-// Header 3 komponenty
-// Header glowny - ma wyrenderowac prostokat 
-// Logo - po lewej - napis
-// Nav - po prawej - tresc
-
 import React from 'react';
 import Logo from './Logo';
 import Nav from './Nav';

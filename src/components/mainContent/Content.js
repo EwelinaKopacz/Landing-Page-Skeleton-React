@@ -1,7 +1,3 @@
-// Content 6 komponenty
-// ContentLeft - kolumna lewa szeroka tutaj bedzie wsadzony - ContentMain tresc
-// ContentRight - kolumna prawa - sidebar // moze dodac tutaj 2 komponenty - sekcja Category i sekcja Gallery
-
 import React from 'react';
 import ContentLeft from './ContentLeft';
 import ContentRight from './ContentRight';
