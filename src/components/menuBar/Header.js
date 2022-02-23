@@ -18,12 +18,19 @@ const headerStyle = {
 
 }
 
+const menuItems = [
+    {text: 'home', url: '/'},
+    {text: 'about', url: '/about'},
+    {text: 'offer', url: '/offer'},
+    {text: 'contact', url: '/contact'}
+];
+
 class Header extends React.Component {
     render(){
         return(
-            <header style={headerStyle}>
-                <Logo/>
-                <Nav/>
+            <header style = {headerStyle}>
+                <Logo text = "ClickWeb"/>
+                <Nav items = {menuItems}/>
             </header>
         )
     }

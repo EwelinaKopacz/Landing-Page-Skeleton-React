@@ -23,23 +23,27 @@ const aStyle = {
     fontSize:'20px'
 }
 
-const Nav = () => {
-    return (
-        <ul style={ulStyle}>
-            <li style={liStyle}>
-                <a href="/" style={aStyle}>Home</a>
-            </li>
-            <li style={liStyle}>
-                <a href="/about" style={aStyle}>About</a>
-            </li>
-            <li style={liStyle}>
-                <a href="/offer" style={aStyle}>Offer</a>
-            </li>
-            <li style={liStyle}>
-                <a href="/contact" style={aStyle}>Contact</a>
-            </li>
-        </ul>
-    )
+class Nav extends React.Component{
+    render(){
+        return (
+            <ul style={ulStyle}>{this.renderItems()}</ul>
+        )
+    }
+    renderItems(){
+        return (
+            <>
+                {this.props.items.map((item) => {
+                    return(
+                        <li style={liStyle}>
+                            <a style={aStyle} href ={item.url}>{item.text}</a>
+                        </li>
+                    )
+                })
+            }
+            </>
+        )
+    }
 }
+
 
 export default Nav;

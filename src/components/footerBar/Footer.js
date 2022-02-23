@@ -16,11 +16,18 @@ const footerStyle = {
     margin:'5px 10px',
 }
 
+const menuItems = [
+    {text: 'home', url: '/'},
+    {text: 'about', url: '/about'},
+    {text: 'offer', url: '/offer'},
+    {text: 'contact', url: '/contact'}
+];
+
 const Footer = () => {
     return(
         <footer style={footerStyle}>
             <Copyrights/>
-            <Nav/>
+            <Nav items = {menuItems}/>
         </footer>
     )
 }
