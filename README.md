@@ -54,9 +54,10 @@ npm start
 
 
 ## Solutions
-By creating this project I had an opportunity to practice/learn:
+By creating this project I had an opportunity to learn:
 * how React works
 * JSX expressions
+* virtual DOM (VDOM)
 * functional and classes components (differences between then, and how to use)
 * props and PropTypes
 * how to pass data using props
