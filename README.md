@@ -1,7 +1,7 @@
 # Landing Page Skeleton - React
 
 ## About the project:
-The aim of this project was to learn build website using React. Using small and big component (which are reusable) to build landing page skeleton. 
+The aim of this project was to learn to build website by using React library. I have practiced to build landing page skeleton by using small and big component (which are reusable).
 
 This landing page contains:
 - header
@@ -18,16 +18,18 @@ This landing page contains:
     - menu
 
 Each element is represented by separate component.
-There are three big components:
+There are three large components:
 * ``` <Header/> ```
 * ``` <Content> ```
 * ``` <Footer/> ```
 
-which contain smaller components like: ```<Nav/>``` or ```<ContentTitle/>```
+The large components contain smaller components such as: ```<ContentTitle/>```or ```<Nav/>``` which is used twice in header and footer section.
 
-```<Nav/>``` component is using twice in header and footer section
-
-I wanted understand how React works and how to use it in a correct way, so I did not focus on appearance part.
+During that practice I focused on to understand how React works and how to use it in a correct way, so I did not pay too much attention to the appearance part. Right now, I can provide my other projects where I focused more on design
+and practiced CSS3.
+* [LandingPage-HTML-CSS](https://github.com/EwelinaKopacz/LandingPage-HTML-CSS)
+* [LandingPage-RWD](https://github.com/EwelinaKopacz/LandingPage-RWD)
+* [LandingPage-CuDanusie](https://github.com/EwelinaKopacz/LandingPage-CuDanusie)
 
 ## How to use it
 Download the data, clone my project
@@ -54,7 +56,7 @@ npm start
 
 
 ## Solutions
-By creating this project I had an opportunity to learn:
+By  undertaking this project I had an opportunity to learn:
 * how React works
 * JSX expressions
 * virtual DOM (VDOM)
