@@ -1,6 +1,15 @@
 # Landing Page Skeleton - React
 
-## About the project:
+## Table of Contents
+1. [About the project](#about-the-project)
+2. [How to use it](#how-to-use-it)
+3. [Technologies](#technologies)
+4. [Solutions](#solutions)
+5. [Project preview](#project-preview)
+6. [Contact](#feel-free-to-contact-me)
+7. [Thanks](#thanks-for-project-and-support-to-Mateusz-Bogolubow)
+
+## About the project
 The aim of this project was to learn to build website by using React library. I have practiced to build landing page skeleton by using small and big component (which are reusable).
 
 This landing page contains:
@@ -47,7 +56,7 @@ Next, to run, type into the terminal:
 npm start
 ```
 
-## Technologies:
+## Technologies
 * JavaScript
 * React
 * HTML
