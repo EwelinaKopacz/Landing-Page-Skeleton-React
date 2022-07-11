@@ -80,7 +80,7 @@ Screenshot
 ![Project-preview](./preview/screen1.png)
 
 
-### Feel free to contact me:
+🔗 ### Feel free to contact me:
 * [Linkedin](https://www.linkedin.com/in/ewelina-kopacz-929559100/) - Ewelina Kopacz
 
 
